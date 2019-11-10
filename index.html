@@ -7,6 +7,12 @@
   <head>
 
     <!-- Meta -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_ZzM1CiLNjXTnzohko7c2u");
+      })();
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -197,13 +203,12 @@
                     <!-- PRETTY -->
                     
                     
-                    <input type="text" class="form-control" name="vkusnyashka" placeholder="Enter your vkusnyashka 🍰">
+                    <input type="text" class="form-control" name="mes" placeholder="Enter your vkusnyashka 🍰">
 
                   </div> <!-- /.form-group -->
 
                   <!-- Button -->
-                  <button class="btn btn-success" onclick="document.getElementById('filth-text').value = vkusnyashka.value;
-        document.getElementById('filth-button').click();" type="button">Отправить</button>
+                  <button class="btn btn-success" onclick="var template_params = { 'mes': mes.value }; emailjs.send('default_service', 'template_8GEKn0IK', template_params); alert('🍰 Принято! :)');" type="button">Отправить</button>
                   
                 </form> <!-- /.Details -->
 
