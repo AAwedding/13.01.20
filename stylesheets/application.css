@@ -3188,7 +3188,7 @@ select[multiple].input-lg,
   background-color: #00b6ad;
   border-color: #009d95;
 }
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+.btn-success:hover,  .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: white;
   background-color: #00837d;
   border-color: #005f5b;
@@ -3199,9 +3199,10 @@ select[multiple].input-lg,
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
   background-color: #00b6ad;
   border-color: #009d95;
+  color: white;
 }
 .btn-success .badge {
-  color: #00b6ad;
+  color: white;
   background-color: white;
 }
 
@@ -3245,7 +3246,7 @@ select[multiple].input-lg,
   border-color: #ffd45e;
 }
 .btn-warning .badge {
-  color: #ffdb77;
+  color: white;
   background-color: white;
 }
 
@@ -3272,7 +3273,7 @@ select[multiple].input-lg,
 }
 
 .btn-link {
-  color: #00b6ad;
+  color: white;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -3741,7 +3742,7 @@ tbody.collapse.in {
 @media(min-width: 320px) and (max-width: 768px) {
 .glav{
     background: grey url(../images/bg-4.png);
-    background-position: 60% 0%;
+    background-position: 52% 0%;
     background-size: cover;
   }
 
@@ -6091,7 +6092,7 @@ tbody.collapse.in {
 }
 
 .details {
-  background: gray url(../images/bg-4a.png) 57% 0% no-repeat;
+  background: gray url(../images/bg-4a.png) 60% 0% no-repeat;
   border-top: 1px solid #e6e6e6;
   text-align: left;
   padding: 50px 0;
